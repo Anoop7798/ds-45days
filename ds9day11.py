@@ -50,3 +50,17 @@ import pandas as pd
 url="https://raw.githubusercontent.com/Anoop7798/ds-45days/main/file2%20-%20Sheet1.csv"
 df= pd.read_csv(url)
 print(df)
+
+
+#excel
+import pandas as pd
+url="https://raw.githubusercontent.com/Anoop7798/ds-45days/main/file2.xlsx"
+df= pd.read_excel(url)
+print(df)
+
+#json
+import pandas as pd
+url="https://raw.githubusercontent.com/Anoop7798/ds-45days/main/file2.json"
+df= pd.read_json(url)
+print(df)
+
